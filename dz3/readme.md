@@ -24,5 +24,5 @@
 ![](https://github.com/sadesss/oop_labs/blob/main/dz3/img/диаграмма4.png)  
 Рисунок 5 - Объектная декомпозиция 
 
-![](https://github.com/sadesss/oop_labs/blob/main/dz3/img/вывод.png)  
+![](https://github.com/sadesss/oop_labs/blob/main/dz3/img/зфф.png)  
 Рисунок 6 - Выполнение программы  
