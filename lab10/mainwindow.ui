@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stack Model</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <!-- Панель ввода: горизонтальный layout с меткой и полем ввода -->
+    <item>
+     <layout class="QHBoxLayout" name="inputLayout">
+      <item>
+       <widget class="QLabel" name="labelInput">
+        <property name="text">
+         <string>Введите число или слово:</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditInput">
+        <property name="placeholderText">
+         <string>Ваш ввод...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <!-- Панель кнопок: горизонтальный layout с четырьмя кнопками -->
+    <item>
+     <layout class="QHBoxLayout" name="buttonLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonPush">
+        <property name="text">
+         <string>Push</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonPop">
+        <property name="text">
+         <string>Pop</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonPrint">
+        <property name="text">
+         <string>Print</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonFindMax">
+        <property name="text">
+         <string>Find Max</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <!-- Поле для отображения содержимого стека: только для чтения -->
+    <item>
+     <widget class="QTextEdit" name="textEditOutput">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string>Здесь будет отображаться содержимое стека...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <!-- Меню и строка состояния (пустые, но могут быть расширены) -->
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
