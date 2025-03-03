@@ -6,7 +6,7 @@
 
 В отчете привести диаграмму разработанных классов и объектную декомпозицию.
 
-![Image alt](https://github.com/sadesss/oop_labs/edit/main/lab8/lab8_0.png)
+![Image alt](https://github.com/sadesss/oop_labs/main/lab8/lab8_0.png)
 Пример выполнения
 
 ![Image alt](https://github.com/sadesss/oop_labs/edit/main/lab8/lab8_drawio1.png)
