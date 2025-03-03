@@ -4,10 +4,10 @@
 Моделировать стек, в качестве элементов которого могут использоваться целые числа и слова. Операции: добавление элемента, удаление элемента, печать элементов стека. Создать класс-потомок, который содержит процедуру определения элемента, имеющего максимальную длину при печати. Тестировать полученную модель.
 Разработать собственную иерархию классов, готовые контейнеры Qt не использовать. Пользовательский интерфейс для работы с моделью реализовать на Qt. В отчете представить диаграмму классов и обосновать выбранную структуру представления данных.
 
-![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/drawio.png)  
-Рисунок 1 - Диаграмма классов
+![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/изображение.png)  
+Рисунок 1 - Диаграмма классов  
 
-![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/00.png)
+![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/00.png)  
 ![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/01.png)  
 ![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/02.png)  
 ![](https://github.com/sadesss/oop_labs/blob/main/lab10/img/03.png)  
